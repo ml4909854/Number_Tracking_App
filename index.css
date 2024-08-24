@@ -1,0 +1,76 @@
+
+
+
+
+body{
+    width: 300px;
+    height: 650px;
+   
+    margin: auto;
+    padding-left: 30px;
+   
+   
+  
+  }
+  #keypad{
+    display: grid;
+    grid-template-columns: repeat(3 ,80px);
+    grid-template-rows: repeat(4,80px);
+    gap: 10px;
+  
+  }
+  
+  #min{
+    width: 100px;
+    height: 50px;
+    border: 1px solid black;
+    margin-bottom: 25px;
+    text-align: center;
+  padding-top: 40px;
+  background-color: orange;
+  
+  }
+  #max{
+    width: 100px;
+    height: 50px;
+    border: 1px solid black;
+    margin-bottom: 25px;
+    text-align: center;
+  padding-top: 40px;
+  background-color: green;
+  }
+  #score{
+    width: 258px;
+    height: 50px;
+    border: 1px solid black;
+    margin-bottom: 25px;
+    text-align: center;
+  padding-top: 20px;
+  background-color: grey;
+  }
+  #min-max{
+    display: flex;
+    gap: 25px;
+    margin-left: 15px;
+    padding-top: 20px;
+   
+  }
+  #enter{
+    margin-top: 20px;
+    width: 265px;
+    height: 40px;
+    background-color: blue;
+  
+  }
+  .classbtn2{
+    background-color: green;
+  
+  }
+  .classbtn1{
+    background-color: orange;
+  }
+  #btn{
+    margin-left: 90px;
+    padding-right: 70px;
+    background-color: orange;
+  }
